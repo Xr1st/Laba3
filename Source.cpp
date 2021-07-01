@@ -4,12 +4,12 @@ using namespace std;
 
 void one() {
     int a, b, size;
-    cout << "Ðàçìåð ìàññèâà: " << endl;
+    cout << "Ð Ð°Ð·Ð¼ÐµÑ€ Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << endl;
     cin >> size;
     int counter = 0;
     int* arr = new int[size];
 
-    cout << "Çàïîëèíòå: ";
+    cout << "Ð—Ð°Ð¿Ð¾Ð»Ð¸Ð½Ñ‚Ðµ: ";
     for (int i = 0; i < size; i++)
     {
         cin >> arr[i];
@@ -38,7 +38,7 @@ void one() {
 
 
 void two() {
-    cout << "Ñòðîêà: ";
+    cout << "Ð¡Ñ‚Ñ€Ð¾ÐºÐ°: ";
     string str;
     cin >> str;
     for (int i = 0; i < str.length(); i++)
